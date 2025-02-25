@@ -199,5 +199,7 @@ def decode_message():
 
     return render_template('index.html', decoded_message=decoded_message)
 
+# if __name__ == '__main__':
+#     app.run(debug=True)
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False, host="0.0.0.0", port=10000)
