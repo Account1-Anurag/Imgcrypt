@@ -1,2 +1,4 @@
 Flask
 gunicorn
+cv2
+numpy 
